@@ -8,7 +8,7 @@ int main()
 {
     string s;
     int count = 0;
-    cin >> s;
+    scanf("%[^\n]s",s);
     int i, l;
     l=s.length();
     for(i=0;i<l;i++)
